@@ -18,3 +18,29 @@ for(let i=1;i<=20;i++){
 for(let i=0;i<=200;i+=2){
     console.log(i);
 }
+
+
+// ## Excited Kitten
+// 1. Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
+
+// 2. For every **even** number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
+
+// >Hint: You will need to use Math.random()
+
+// ![Image of cat with funny quote about dot](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRETGsssSXu2AS15GpQIBhuSgkhP2q_4JZcPopN4dFP-v85mAePGA)
+
+// <hr>
+// &#x1F534; The commit message should read: <br>
+// "Commit 3 - Excited Kittens answered"
+// <hr>
+const random1Array = ["...human...why you taking pictures of me?...","...the catnip made me do it...","...why does the red dot always get away..."];
+const nonrandom = "Love me, pet me! HSSSSSS!";
+for(let i=0;i<20;i++){
+    
+    if(i%2 !== 0){
+        console.log(random1Array[Math.floor(Math.random()*3)]);
+    }
+    else{
+        console.log(nonrandom);
+    }
+}
