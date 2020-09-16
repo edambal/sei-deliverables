@@ -190,16 +190,6 @@ for(let i=0;i<kristynsCloset.length;i+=2){
     console.log("Today kristyn will be wearing " + AllOutfits.pop());
 }
 
-const thomsOutfits = [];
-//    [0][0]
-//   [1][0]
-//   [2][0]
-//   [0][1]
-//   [1][1]
-//   [2][1]
-//   [0][2]
-//   [1][2]
-//   [2][2]
 for(let i=0;i<3;i++){
     let pushItem = '';
     for(let j=0;j<3;j++){
